@@ -1,0 +1,7 @@
+[GIN-debug] GET    /static/*filepath         --> go_learn/vendor/github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> go_learn/vendor/github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /                         --> go_learn/routers.LoadRouters.func1 (3 handlers)
+[GIN-debug] POST   /login                    --> go_learn/controllers.CheckLogin (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2019/12/20 - 23:27:02 | 200 |       940.9µs |       127.0.0.1 | POST     /login
+[GIN] 2019/12/20 - 23:27:05 | 200 |      1.0013ms |       127.0.0.1 | POST     /login
